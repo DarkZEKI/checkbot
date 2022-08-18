@@ -232,7 +232,7 @@ async def ch(message: types.Message):
             "accept-language": "en-US,en;q=0.9"
         }
 
-        ri = session.post('https://preludemag.com/subscribe/', data=payload,
+        ri = session.post('', data=payload,
                           headers=head, proxies=proxies)
         toc = time.perf_counter()
 
